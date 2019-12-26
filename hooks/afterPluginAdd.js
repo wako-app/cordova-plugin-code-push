@@ -40,15 +40,15 @@ module.exports = function (ctx) {
     var plugins = ctx.opts.cordova.plugins;
 
     if (!isPluginInListOrInXmlConfig("cordova-plugin-file", plugins)) {
-        console.log("Adding the cordova-plugin-file@4.3.3... ");
-        var output = execSync(cordovaCLI + ' plugin add cordova-plugin-file@4.3.3').toString();
+        console.log("Adding the cordova-plugin-file@6.0.0... ");
+        var output = execSync(cordovaCLI + ' plugin add cordova-plugin-file@6.0.0').toString();
         console.log(output);
         plugins = execSync(cordovaCLI + ' plugin').toString();
     }
 
     if (!isPluginInListOrInXmlConfig("cordova-plugin-file-transfer", plugins)) {
-        console.log("Adding the cordova-plugin-file-transfer@1.6.3... ");
-        var output = execSync(cordovaCLI + ' plugin add cordova-plugin-file-transfer@1.6.3').toString();
+        console.log("Adding the cordova-plugin-file-transfer@1.7.1... ");
+        var output = execSync(cordovaCLI + ' plugin add cordova-plugin-file-transfer@1.7.1').toString();
         console.log(output);
         plugins = execSync(cordovaCLI + ' plugin').toString();
     }
