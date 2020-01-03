@@ -6,7 +6,7 @@
         <keywords>cordova,code,push</keywords>
         <repo>https://github.com/wako-app/cordova-plugin-code-push.git</repo>
  
-        <dependency id="code-push" version="3.0.1" />
+        <dependency id="code-push" version="3.1.0" />
         <dependency id="cordova-plugin-dialogs" version=">=1.1.1" />
         <dependency id="cordova-plugin-device" version=">=1.1.0" />
 
